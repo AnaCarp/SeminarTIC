@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(179, 218, 242);
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+
+h1 {
+    color: white;
+    align-self: flex-end;
+}
+
+
+#calculator {
+    box-shadow: 0 4px 8px #388095;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+#display {
+    background-color: rgba(40, 53, 79, 255);
+    display: flex;
+}
+
+.actiuni {
+    width: 5rem;
+    height: 5rem;
+    font-size: 20px;
+    border: 1px solid white;
+    background-color: rgba(57, 127, 149, 255);
+    color: rgba(172, 222, 235, 255)
+}
+
+
+
+.cifra {
+    width: 5rem;
+    height: 5rem;
+    font-size: 25px;
+    border: 1px solid white;
+    color: #7899aa;
+    background-color: rgba(40, 53, 79, 255);
+}
+
+
+
+#egal {
+    background-color: rgba(218, 129, 40, 255);
+    font-size: 1.2rem;
+    height: 160px;
+    line-height: 100px;
+    margin-bottom: -100px;
+
+}
